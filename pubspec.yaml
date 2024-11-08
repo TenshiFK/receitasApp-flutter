@@ -1,0 +1,40 @@
+name: receitasapp
+description: "A new Flutter project."
+
+publish_to: 'none' 
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.5.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.8
+  firebase_core: ^3.6.0
+  firebase_auth: ^5.3.1
+  cloud_firestore: ^5.4.4
+  uuid: ^4.5.1
+  image_picker: ^1.1.2
+  firebase_storage: ^12.3.4
+  http: ^1.2.2
+  dropdown_button2: ^2.3.9
+  flutter_animated_icons: ^1.0.1
+  cached_network_image: ^3.4.1
+  animated_text_kit: ^4.2.2
+  audioplayers: ^6.1.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^4.0.0
+
+flutter:
+
+  uses-material-design: true
+  
+  assets:
+    - assets/
